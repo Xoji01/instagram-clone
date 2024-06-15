@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="header__container">
+      <input type="text" placeholder="Search">
+      <div class="right">
+        <img src="./images/icons/home.svg" alt="Home">
+        <img src="./images/icons/send.svg" alt="Send">
+        <img src="./images/icons/explore.svg" alt="Explore">
+        <img src="./images/icons/like.svg" alt="Like">
+        <img src="./images/icons/profile.svg" alt="Profile">
+      </div>
+    </div>
+  </header>
+  <div class="container-profile">
+    <section class="info">
+      <div class="user_img">
+        <img id="profile-picture" src="" alt="user image" />
+      </div>
+      <div class="info__content">
+        <h2 class="nickname">nickname</h2>
+        <div class="info__following-box">
+          <div class="info__following-item"><span>12</span> posts</div>
+          <div class="info__following-item"><span>1200</span> followers</div>
+          <div class="info__following-item"><span>120</span> following</div>
+        </div>
+        <p class="username">Name Surname</p>
+      </div>
+    </section>
+    <section class="posts">
+      <div class="posts__tabs">
+        <div class="tab">
+          <img src="./images/icons/posts.svg" alt="posts" />
+          <p>Posts</p>
+        </div>
+      </div>
+      <div class="posts__grid" id="user-posts">
+      </div>
+    </section>
+  </div>
+  <script src="./components/script.js"></script>
+</body>
+</html>
